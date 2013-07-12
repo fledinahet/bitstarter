@@ -2,7 +2,7 @@ var express = require('express');
 
 var fs = require('fs');
 
-buf = new Buffer(256);
+buf = new Buffer(10000);
 len = buf.write(fs.readFileSync('index.html','utf8'));
 
 texte = buf.toString('utf8', 0, len);
