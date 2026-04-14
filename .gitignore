@@ -1,1 +1,25 @@
 node_modules
+
+# Claude Code — fichiers ephemeres (doctrine docs/guides/claude-code-file-doctrine.md)
+# NOTE : prefixe **/ pour matcher les .claude/ nested (sous-workspaces)
+**/.claude/message_count.json
+**/.claude/state.json
+**/.claude/hook-heartbeat.json
+**/.claude/notifications.jsonl
+**/.claude/modifications.jsonl
+**/.claude/leases.json
+**/.claude/doc_sync.lock
+**/.claude/watchdog.pid
+**/.claude/debug_hook_input.json
+**/.claude/logs/
+**/.claude/pipeline/
+**/.claude/tracking/agents.jsonl
+**/.claude/tracking/sessions.jsonl
+**/.claude/tracking/SESSIONS_INDEX.md
+**/.claude/tracking/verbatims/
+**/.claude/settings.local.json
+**/.claude/settings.local.json.backup
+**/.claude/periodic_actions.json
+**/.claude/context_tokens.txt
+**/.claude/pipeline-state.json
+**/.claude/auto_commit_config.json
